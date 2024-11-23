@@ -115,7 +115,7 @@ function App() {
                 </div>
                 <div className="education-box">
                   <div className="education-box-title">College</div>
-                  <div className="education-box-content">Naga College Foundation Inc. Bachelor of Science in Information System (BSIS)</div>
+                  <div className="education-box-content">Naga College Foundation Inc. <br/> Bachelor of Science in Information System (BSIS)</div>
                 </div>
               </div>
             </div>
