@@ -111,7 +111,7 @@ function App() {
                 </div>
                 <div className="education-box">
                   <div className="education-box-title">Senior High School</div>
-                  <div className="education-box-content">Camarines Sur National Highschool <br/>Technical-Vocational-Livelihood (T.V.L) <br/>2023-2024</div>
+                  <div className="education-box-content">Camarines Sur National Highschool <br/>Technical-Vocational-Livelihood (T.V.L) <br/>2021-2023</div>
                 </div>
                 <div className="education-box">
                   <div className="education-box-title">College</div>
