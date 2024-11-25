@@ -79,7 +79,7 @@ function App() {
             <div className="about-content">
               <div className="blur-box show">
                 <div className="about-me">About me</div>
-                <img src="profile.jpg" alt="Your Image" className="about-image" />
+                <img src="img/profile.jpg" alt="Your Image" className="about-image" />
                 <p className="paragraph">
                   Hello, I'm Ehrvayn Rayven P. Olivera, 20 years old and this
                   is my personal website. I'm from Abella Street Zone-7 Naga
@@ -102,22 +102,22 @@ function App() {
             <div className="education-content">
               <div className="blur-box show">
                 <div className="education-box">
-                <img src="stacruz.jpg" alt="elementary" className="education-image" />
+                <img src="img/stacruz.jpg" alt="elementary" className="education-image" />
                   <div className="education-box-title">Elementary</div>
                   <div className="education-box-content">Sta Cruz Elementary School <br/> 2011-2017</div>
                 </div>
                 <div className="education-box">
-                <img src="camhigh.jpg" alt="elementary" className="education-image" />
+                <img src="img/camhigh.jpg" alt="elementary" className="education-image" />
                   <div className="education-box-title">Junior High School</div>
                   <div className="education-box-content">Camarines Sur National Highschool <br/>Basic Education Program (B.E.P)<br/> 2017-2021</div>
                 </div>
                 <div className="education-box">
-                <img src="camhigh.jpg" alt="elementary" className="education-image" />
+                <img src="img/camhigh.jpg" alt="elementary" className="education-image" />
                   <div className="education-box-title">Senior High School</div>
                   <div className="education-box-content">Camarines Sur National Highschool <br/>Technical-Vocational-Livelihood (T.V.L) <br/>2021-2023</div>
                 </div>
                 <div className="education-box">
-                <img src="ncf.jpg" alt="elementary" className="education-image" />
+                <img src="img/ncf.jpg" alt="elementary" className="education-image" />
                   <div className="education-box-title">College</div>
                   <div className="education-box-content">Naga College Foundation Inc. <br/> Bachelor of Science in Information System (BSIS)</div>
                 </div>
@@ -132,14 +132,14 @@ function App() {
     <div className="hobbies-container active">
       <div className="hobby-card">
         <div className="blur-box show">
-          <img src="gaming.jpg" alt="Playing Online Games" className="hobby-image" />
+          <img src="img/gaming.jpg" alt="Playing Online Games" className="hobby-image" />
           <p className="hobby-description">Playing online games</p>
         </div>
       </div>
       <div className="hobby-card">
         <div className="blur-box show">
           <video 
-            src="guitar.mp4" 
+            src="vid/guitar.mp4" 
             className="hobby-video" 
             autoPlay 
             loop 
@@ -150,7 +150,7 @@ function App() {
       </div>
       <div className="hobby-card">
         <div className="blur-box show">
-          <img src="music.png" alt="Listening to Music" className="hobby-image" />
+          <img src="img/music.png" alt="Listening to Music" className="hobby-image" />
           <p className="hobby-description">Listening to music</p>
         </div>
       </div>
