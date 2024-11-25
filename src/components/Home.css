@@ -1,0 +1,61 @@
+.welcome-container, .about-container, .education-container, .hobbies-container {
+    display: none;
+  }
+  
+  .welcome-container.active, .about-container.active, .education-container.active, .hobbies-container.active, .contact-container.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .welcome-content, .about-content, .education-content, .hobbies-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #00f7ff;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%; 
+    animation: typing 3s steps(50) 1s 1 normal both, blink 0.75s step-end; 
+    margin-bottom: 20px;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0; 
+    }
+    100% {
+      width: 100%; 
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent; 
+    }
+  }
+  
+  .created {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(25) 1s 1 normal both, blink 0.75s step-end infinite; 
+  }
